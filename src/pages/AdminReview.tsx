@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { 
   Check, X, Eye, Clock, MapPin, Camera, 
-  User, AlertCircle, Search, Filter, ChevronDown 
+  User, AlertCircle, Search, Filter 
 } from 'lucide-react';
 import { Button, Tabs, Tag, Empty } from 'antd';
 import './AdminReview.css';
@@ -172,30 +172,6 @@ export default function AdminReview() {
             onClick={() => setSelectedSpot(spot)}
           >
             详情
-          </Button>
-        </div>
-      </div>
-    </div>
-  );
-
-  const renderRejectModal = () => (
-    <div className="reject-modal">
-      <div className="reject-modal-content">
-        <h3>拒绝理由</h3>
-        <textarea
-          placeholder="请输入拒绝原因，将通知提交者"
-          value={rejectReason}
-          onChange={(e) => setRejectReason(e.target.value)}
-          rows={4}
-        />
-        <div className="reject-modal-actions">
-          <Button onClick={() => setSelectedSpot(null)}>取消</Button>
-          <Button
-            type="primary"
-            danger
-            onClick={() => handleReject(selectedSpot?.id)}
-          >
-            确认拒绝
           </Button>
         </div>
       </div>

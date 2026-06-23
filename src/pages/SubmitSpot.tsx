@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
-  MapPin, Camera, Star, Clock, DollarSign, Phone, 
-  Globe, Calendar, Upload, X, Check, AlertCircle 
+  MapPin, Camera, Star, Clock, DollarSign, 
+  Upload, X, Check, AlertCircle 
 } from 'lucide-react';
 import { Button } from 'antd';
 import './SubmitSpot.css';
@@ -39,7 +39,7 @@ export default function SubmitSpot() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };

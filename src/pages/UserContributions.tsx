@@ -1,10 +1,9 @@
-import { useState } from 'react';
 import { 
-  Star, Trophy, Medal, Crown, Zap, Clock,
-  MapPin, Camera, CheckCircle, ThumbsUp, 
-  ChevronRight, Award, TrendingUp, Gift
+  Star, Trophy, Crown, Zap, Clock,
+  MapPin, CheckCircle, 
+  Award, TrendingUp, Gift
 } from 'lucide-react';
-import { Tabs, Tag, Progress, Card, Empty } from 'antd';
+import { Tag, Progress, Card } from 'antd';
 import './UserContributions.css';
 
 // 模拟用户数据
@@ -88,7 +87,7 @@ const mockUser = {
   ]
 };
 
-const BADGES_INFO = {
+const BADGES_INFO: Record<string, { name: string; desc: string; icon: string }> = {
   first_spot: { name: '首发达人', desc: '提交第一个景点', icon: '🎯' },
   spot_creator: { name: '景点创造者', desc: '提交并审核通过5个景点', icon: '🏔️' },
   photo_master: { name: '摄影大师', desc: '上传100张景点照片', icon: '📸' },
@@ -100,8 +99,6 @@ const BADGES_INFO = {
 };
 
 export default function UserContributions() {
-  const [activeTab, setActiveTab] = useState('overview');
-
   const renderBadge = (badge: any) => (
     <div
       key={badge.code}

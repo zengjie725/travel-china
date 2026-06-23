@@ -1,13 +1,4 @@
-import provincesData from './provinces.json';
-import citiesData from './cities.json';
-
-export interface Province {
-  id: string;
-  name: string;
-  shortName: string;
-  capital: string;
-  code: string;
-}
+import nationalSkeletonData from './national_skeleton_full.json';
 
 export interface City {
   id: string;
@@ -15,18 +6,32 @@ export interface City {
   spots: any[];
 }
 
-export interface CityMap {
-  [provinceId: string]: City[];
+export interface Province {
+  id: string;
+  name: string;
+  shortName: string;
+  capital: string;
+  code: string;
+  cities: City[];
 }
 
-export const provinces: Province[] = provincesData.provinces;
+interface SkeletonData {
+  provinces: Province[];
+}
 
-export const cities: CityMap = citiesData.cities;
+export const provinces: Province[] = (nationalSkeletonData as SkeletonData).provinces;
 
 export const getCitiesByProvinceId = (provinceId: string): City[] => {
-  return cities[provinceId] || [];
+  const province = provinces.find((p) => p.id === provinceId);
+  return province?.cities || [];
 };
 
 export const getProvinceById = (provinceId: string): Province | undefined => {
   return provinces.find((p) => p.id === provinceId);
+};
+
+export const getTotalProvinceCount = (): number => provinces.length;
+
+export const getTotalCityCount = (): number => {
+  return provinces.reduce((sum, p) => sum + p.cities.length, 0);
 };
