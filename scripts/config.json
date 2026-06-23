@@ -1,0 +1,15 @@
+{
+  "gaode": {
+    "api_key": "YOUR_GAODE_API_KEY",
+    "search_url": "https://restapi.amap.com/v3/place/text",
+    "detail_url": "https://restapi.amap.com/v3/place/detail"
+  },
+  "ctrip": {
+    "base_url": "https://you.ctrip.com"
+  },
+  "output": {
+    "gaode_data": "data/gaode_poi_data.json",
+    "ctrip_data": "data/ctrip_data.json",
+    "merged_data": "data/merged_spots.json"
+  }
+}

@@ -1,0 +1,391 @@
+/* 用户贡献展示页面样式 */
+.user-contributions-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 16px;
+}
+
+/* 用户概览卡片 */
+.user-overview {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.user-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-info h2 {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.user-level {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.user-points {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+
+.points-value {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.points-label {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.level-progress {
+  margin-bottom: 16px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.user-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* 徽章墙 */
+.badges-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.badges-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  transition: all 0.2s;
+}
+
+.badge-item.earned {
+  background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
+  border: 1px solid #ffe58f;
+}
+
+.badge-item.locked {
+  opacity: 0.5;
+}
+
+.badge-icon {
+  font-size: 32px;
+}
+
+.badge-info {
+  flex: 1;
+}
+
+.badge-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.badge-desc {
+  font-size: 11px;
+  color: #999;
+}
+
+.badge-check {
+  color: #52c41a;
+}
+
+.badge-lock {
+  color: #999;
+}
+
+/* 排行榜卡片 */
+.leaderboard-card {
+  margin-bottom: 16px;
+}
+
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.leaderboard-item:hover {
+  background: #f5f5f5;
+}
+
+.leaderboard-item.current {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+}
+
+.rank {
+  width: 32px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.leaderboard-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.leaderboard-name {
+  flex: 1;
+  font-size: 14px;
+}
+
+.leaderboard-points {
+  font-size: 13px;
+  color: #666;
+}
+
+.leaderboard-item.current .leaderboard-points {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* 贡献记录 */
+.contributions-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.contributions-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.contributions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contribution-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.contribution-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contribution-info {
+  flex: 1;
+}
+
+.contribution-info h4 {
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.contribution-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.reward {
+  color: #52c41a;
+  font-weight: 500;
+}
+
+.reward.pending {
+  color: #faad14;
+}
+
+/* 积分历史 */
+.points-history {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.points-history h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-icon {
+  width: 32px;
+  height: 32px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.history-info {
+  flex: 1;
+}
+
+.history-action {
+  display: block;
+  font-size: 14px;
+}
+
+.history-detail {
+  font-size: 12px;
+  color: #999;
+}
+
+.history-points {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.history-points.positive {
+  color: #52c41a;
+}
+
+.history-points.negative {
+  color: #ff4d4f;
+}
+
+/* 积分攻略卡片 */
+.tips-card {
+  margin-bottom: 16px;
+}
+
+.tips-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.tip-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.tip-points {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tip-desc {
+  font-size: 13px;
+  color: #666;
+}

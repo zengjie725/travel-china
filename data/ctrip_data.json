@@ -1,0 +1,203 @@
+{
+  "version": "1.0",
+  "update_time": "2024-01-01 12:00:00",
+  "count": 10,
+  "spots": [
+    {
+      "name": "故宫博物院",
+      "url": "https://you.ctrip.com/sight/beijing1/13735.html",
+      "rating": 4.9,
+      "review_count": 125632,
+      "image": "https://example.com/gugong.jpg",
+      "ticket_price": 60,
+      "description": "世界现存最大木质古建筑群，明清两代皇家宫殿",
+      "opening_hours": "08:30-17:00",
+      "images": [
+        "https://example.com/gugong1.jpg",
+        "https://example.com/gugong2.jpg"
+      ],
+      "tags": [
+        "历史",
+        "文化",
+        "古迹"
+      ],
+      "best_season": "春秋两季"
+    },
+    {
+      "name": "颐和园",
+      "url": "https://you.ctrip.com/sight/beijing1/13736.html",
+      "rating": 4.8,
+      "review_count": 89543,
+      "image": "https://example.com/summer.jpg",
+      "ticket_price": 30,
+      "description": "中国现存规模最大、保存最完整的皇家园林",
+      "opening_hours": "06:30-18:00",
+      "images": [
+        "https://example.com/summer1.jpg"
+      ],
+      "tags": [
+        "园林",
+        "皇家",
+        "自然"
+      ],
+      "best_season": "夏季"
+    },
+    {
+      "name": "八达岭长城",
+      "url": "https://you.ctrip.com/sight/beijing1/13737.html",
+      "rating": 4.8,
+      "review_count": 156789,
+      "image": "https://example.com/greatwall.jpg",
+      "ticket_price": 40,
+      "description": "万里长城的重要组成部分，世界文化遗产",
+      "opening_hours": "07:30-18:00",
+      "images": [
+        "https://example.com/greatwall1.jpg",
+        "https://example.com/greatwall2.jpg",
+        "https://example.com/greatwall3.jpg"
+      ],
+      "tags": [
+        "长城",
+        "历史",
+        "自然"
+      ],
+      "best_season": "秋季"
+    },
+    {
+      "name": "天坛公园",
+      "url": "https://you.ctrip.com/sight/beijing1/13738.html",
+      "rating": 4.7,
+      "review_count": 67890,
+      "image": "https://example.com/temple.jpg",
+      "ticket_price": 15,
+      "description": "明清两代皇帝祭天祈谷的场所",
+      "opening_hours": "06:00-22:00",
+      "images": [
+        "https://example.com/temple1.jpg"
+      ],
+      "tags": [
+        "古迹",
+        "宗教",
+        "文化"
+      ],
+      "best_season": "春季"
+    },
+    {
+      "name": "鸟巢",
+      "url": "https://you.ctrip.com/sight/beijing1/13739.html",
+      "rating": 4.6,
+      "review_count": 45678,
+      "image": "https://example.com/birdnest.jpg",
+      "ticket_price": 50,
+      "description": "2008年北京奥运会主体育场",
+      "opening_hours": "09:00-21:00",
+      "images": [
+        "https://example.com/birdnest1.jpg",
+        "https://example.com/birdnest2.jpg"
+      ],
+      "tags": [
+        "现代",
+        "体育",
+        "地标"
+      ],
+      "best_season": "全年"
+    },
+    {
+      "name": "南锣鼓巷",
+      "url": "https://you.ctrip.com/sight/beijing1/13740.html",
+      "rating": 4.5,
+      "review_count": 78901,
+      "image": "https://example.com/nanluo.jpg",
+      "ticket_price": 0,
+      "description": "北京最古老的街区之一，保存完好的四合院建筑群",
+      "opening_hours": "全天开放",
+      "images": [
+        "https://example.com/nanluo1.jpg"
+      ],
+      "tags": [
+        "老街",
+        "文化",
+        "美食"
+      ],
+      "best_season": "秋季"
+    },
+    {
+      "name": "什刹海",
+      "url": "https://you.ctrip.com/sight/beijing1/13741.html",
+      "rating": 4.5,
+      "review_count": 56789,
+      "image": "https://example.com/shichahai.jpg",
+      "ticket_price": 0,
+      "description": "北京城内面积最大的历史街区，拥有众多王府古迹",
+      "opening_hours": "全天开放",
+      "images": [
+        "https://example.com/shichahai1.jpg",
+        "https://example.com/shichahai2.jpg"
+      ],
+      "tags": [
+        "湖泊",
+        "夜景",
+        "文化"
+      ],
+      "best_season": "夏季"
+    },
+    {
+      "name": "798艺术区",
+      "url": "https://you.ctrip.com/sight/beijing1/13742.html",
+      "rating": 4.4,
+      "review_count": 34567,
+      "image": "https://example.com/798.jpg",
+      "ticket_price": 0,
+      "description": "由老厂房改造的艺术区，汇集众多画廊和艺术机构",
+      "opening_hours": "10:00-18:00",
+      "images": [
+        "https://example.com/798_1.jpg"
+      ],
+      "tags": [
+        "艺术",
+        "创意",
+        "拍照"
+      ],
+      "best_season": "全年"
+    },
+    {
+      "name": "北京动物园",
+      "url": "https://you.ctrip.com/sight/beijing1/13743.html",
+      "rating": 4.6,
+      "review_count": 98765,
+      "image": "https://example.com/zoo.jpg",
+      "ticket_price": 15,
+      "description": "中国最大的动物园之一，拥有众多珍稀动物",
+      "opening_hours": "07:30-18:00",
+      "images": [
+        "https://example.com/zoo1.jpg",
+        "https://example.com/zoo2.jpg"
+      ],
+      "tags": [
+        "动物",
+        "亲子",
+        "科普"
+      ],
+      "best_season": "春季"
+    },
+    {
+      "name": "恭王府",
+      "url": "https://you.ctrip.com/sight/beijing1/13744.html",
+      "rating": 4.7,
+      "review_count": 23456,
+      "image": "https://example.com/gongwangfu.jpg",
+      "ticket_price": 40,
+      "description": "清代规模最大的王府，曾是和珅的府邸",
+      "opening_hours": "08:30-17:00",
+      "images": [
+        "https://example.com/gongwangfu1.jpg"
+      ],
+      "tags": [
+        "历史",
+        "文化",
+        "古迹"
+      ],
+      "best_season": "秋季"
+    }
+  ]
+}
