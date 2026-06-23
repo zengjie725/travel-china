@@ -1,0 +1,1447 @@
+{
+  "version": "1.0",
+  "updateTime": "2026-06-23 07:53:42",
+  "count": 72,
+  "spots": [
+    {
+      "id": "bj-forbidden-city",
+      "name": "故宫博物院",
+      "province": "北京市",
+      "provinceId": "beijing",
+      "city": "北京",
+      "cityId": "beijing",
+      "level": "5A",
+      "address": "北京市东城区景山前街4号",
+      "location": {
+        "lat": 39.9163,
+        "lng": 116.3972
+      },
+      "tags": [
+        "历史",
+        "文化",
+        "古迹"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "bj-summer-palace",
+      "name": "颐和园",
+      "province": "北京市",
+      "provinceId": "beijing",
+      "city": "北京",
+      "cityId": "beijing",
+      "level": "5A",
+      "address": "北京市海淀区新建宫门路19号",
+      "location": {
+        "lat": 39.9999,
+        "lng": 116.2755
+      },
+      "tags": [
+        "园林",
+        "皇家",
+        "自然"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "bj-great-wall-badaling",
+      "name": "八达岭长城",
+      "province": "北京市",
+      "provinceId": "beijing",
+      "city": "延庆区",
+      "cityId": "yanqing",
+      "level": "5A",
+      "address": "北京市延庆区军都山关沟古道北口",
+      "location": {
+        "lat": 40.3629,
+        "lng": 116.0028
+      },
+      "tags": [
+        "长城",
+        "历史",
+        "自然"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "bj-tiananmen",
+      "name": "天安门广场",
+      "province": "北京市",
+      "provinceId": "beijing",
+      "city": "北京",
+      "cityId": "beijing",
+      "level": "5A",
+      "address": "北京市东城区天安门广场",
+      "location": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "tags": [
+        "历史",
+        "文化",
+        "地标"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "bj-temple-heaven",
+      "name": "天坛公园",
+      "province": "北京市",
+      "provinceId": "beijing",
+      "city": "北京",
+      "cityId": "beijing",
+      "level": "5A",
+      "address": "北京市东城区天坛东路甲1号",
+      "location": {
+        "lat": 39.8822,
+        "lng": 116.4066
+      },
+      "tags": [
+        "古迹",
+        "宗教",
+        "文化"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "sh-bund",
+      "name": "外滩",
+      "province": "上海市",
+      "provinceId": "shanghai",
+      "city": "上海",
+      "cityId": "shanghai",
+      "level": "5A",
+      "address": "上海市黄浦区中山东一路",
+      "location": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "tags": [
+        "地标",
+        "夜景",
+        "现代"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "sh-yu-garden",
+      "name": "豫园",
+      "province": "上海市",
+      "provinceId": "shanghai",
+      "city": "上海",
+      "cityId": "shanghai",
+      "level": "5A",
+      "address": "上海市黄浦区安仁街132号",
+      "location": {
+        "lat": 31.2336,
+        "lng": 121.4923
+      },
+      "tags": [
+        "园林",
+        "历史",
+        "文化"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "sh-disney",
+      "name": "上海迪士尼度假区",
+      "province": "上海市",
+      "provinceId": "shanghai",
+      "city": "上海",
+      "cityId": "shanghai",
+      "level": "5A",
+      "address": "上海市浦东新区川沙新镇",
+      "location": {
+        "lat": 31.1443,
+        "lng": 121.6147
+      },
+      "tags": [
+        "主题乐园",
+        "亲子",
+        "娱乐"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "cq-three-gorges",
+      "name": "长江三峡",
+      "province": "重庆市",
+      "provinceId": "chongqing",
+      "city": "重庆",
+      "cityId": "chongqing",
+      "level": "5A",
+      "address": "重庆市奉节县白帝城",
+      "location": {
+        "lat": 30.9696,
+        "lng": 109.4742
+      },
+      "tags": [
+        "自然",
+        "峡谷",
+        "江河"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "cq-wulong",
+      "name": "武隆喀斯特旅游区",
+      "province": "重庆市",
+      "provinceId": "chongqing",
+      "city": "武隆区",
+      "cityId": "wulong",
+      "level": "5A",
+      "address": "重庆市武隆区仙女山镇",
+      "location": {
+        "lat": 29.2938,
+        "lng": 107.9167
+      },
+      "tags": [
+        "自然",
+        "溶洞",
+        "地质"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "cq-ciqikou",
+      "name": "磁器口古镇",
+      "province": "重庆市",
+      "provinceId": "chongqing",
+      "city": "重庆",
+      "cityId": "chongqing",
+      "level": "5A",
+      "address": "重庆市沙坪坝区磁南街1号",
+      "location": {
+        "lat": 29.4617,
+        "lng": 106.4616
+      },
+      "tags": [
+        "古镇",
+        "文化",
+        "美食"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "sc-jiuzhaigou",
+      "name": "九寨沟景区",
+      "province": "四川省",
+      "provinceId": "sichuan",
+      "city": "九寨沟县",
+      "cityId": "jiuzhaigou",
+      "level": "5A",
+      "address": "四川省阿坝藏族羌族自治州九寨沟县漳扎镇",
+      "location": {
+        "lat": 33.1419,
+        "lng": 103.9889
+      },
+      "tags": [
+        "自然",
+        "湖泊",
+        "森林"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "sc-emei",
+      "name": "峨眉山景区",
+      "province": "四川省",
+      "provinceId": "sichuan",
+      "city": "峨眉山市",
+      "cityId": "emeishan",
+      "level": "5A",
+      "address": "四川省乐山市峨眉山市黄湾镇",
+      "location": {
+        "lat": 29.563,
+        "lng": 103.3949
+      },
+      "tags": [
+        "佛教",
+        "名山",
+        "自然"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "sc-leshan",
+      "name": "乐山大佛",
+      "province": "四川省",
+      "provinceId": "sichuan",
+      "city": "乐山",
+      "cityId": "leshan",
+      "level": "5A",
+      "address": "四川省乐山市市中区凌云路2435号",
+      "location": {
+        "lat": 29.563,
+        "lng": 103.7619
+      },
+      "tags": [
+        "石刻",
+        "佛教",
+        "自然"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "sc-dujiangyan",
+      "name": "都江堰景区",
+      "province": "四川省",
+      "provinceId": "sichuan",
+      "city": "都江堰市",
+      "cityId": "chengdu",
+      "level": "5A",
+      "address": "四川省成都市都江堰市公园路都江堰景区",
+      "location": {
+        "lat": 31.0093,
+        "lng": 103.6116
+      },
+      "tags": [
+        "水利",
+        "历史",
+        "文化"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "sc-panda-base",
+      "name": "成都大熊猫繁育研究基地",
+      "province": "四川省",
+      "provinceId": "sichuan",
+      "city": "成都",
+      "cityId": "chengdu",
+      "level": "5A",
+      "address": "四川省成都市成华区外北熊猫大道1375号",
+      "location": {
+        "lat": 30.7531,
+        "lng": 104.1227
+      },
+      "tags": [
+        "动物",
+        "亲子",
+        "科普"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "gd-guangzhou-tower",
+      "name": "广州塔",
+      "province": "广东省",
+      "provinceId": "guangdong",
+      "city": "广州",
+      "cityId": "guangzhou",
+      "level": "5A",
+      "address": "广东省广州市海珠区阅江西路222号",
+      "location": {
+        "lat": 23.1141,
+        "lng": 113.3239
+      },
+      "tags": [
+        "地标",
+        "现代",
+        "观景"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "gd-chimelong",
+      "name": "广州长隆旅游度假区",
+      "province": "广东省",
+      "provinceId": "guangdong",
+      "city": "广州",
+      "cityId": "guangzhou",
+      "level": "5A",
+      "address": "广东省广州市番禺区迎宾路",
+      "location": {
+        "lat": 23.0036,
+        "lng": 113.3217
+      },
+      "tags": [
+        "主题乐园",
+        "亲子",
+        "娱乐"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "gd-shenzhen-window",
+      "name": "深圳世界之窗",
+      "province": "广东省",
+      "provinceId": "guangdong",
+      "city": "深圳",
+      "cityId": "shenzhen",
+      "level": "5A",
+      "address": "广东省深圳市南山区深南大道9037号",
+      "location": {
+        "lat": 22.5443,
+        "lng": 113.952
+      },
+      "tags": [
+        "主题乐园",
+        "文化",
+        "娱乐"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "gd-zhuhaidao",
+      "name": "珠海长隆海洋王国",
+      "province": "广东省",
+      "provinceId": "guangdong",
+      "city": "珠海",
+      "cityId": "zhuhai",
+      "level": "5A",
+      "address": "广东省珠海市香洲区横琴新区富祥湾",
+      "location": {
+        "lat": 22.1497,
+        "lng": 113.5675
+      },
+      "tags": [
+        "海洋",
+        "亲子",
+        "娱乐"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "zj-west-lake",
+      "name": "杭州西湖风景名胜区",
+      "province": "浙江省",
+      "provinceId": "zhejiang",
+      "city": "杭州",
+      "cityId": "hangzhou",
+      "level": "5A",
+      "address": "浙江省杭州市西湖区",
+      "location": {
+        "lat": 30.2741,
+        "lng": 120.1552
+      },
+      "tags": [
+        "自然",
+        "湖泊",
+        "文化"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "zj-moganshan",
+      "name": "莫干山景区",
+      "province": "浙江省",
+      "provinceId": "zhejiang",
+      "city": "湖州",
+      "cityId": "huzhou",
+      "level": "5A",
+      "address": "浙江省湖州市德清县莫干山镇",
+      "location": {
+        "lat": 30.5525,
+        "lng": 119.8248
+      },
+      "tags": [
+        "名山",
+        "避暑",
+        "自然"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "zj-putuo",
+      "name": "普陀山风景名胜区",
+      "province": "浙江省",
+      "provinceId": "zhejiang",
+      "city": "舟山",
+      "cityId": "zhoushan",
+      "level": "5A",
+      "address": "浙江省舟山市普陀区普陀山",
+      "location": {
+        "lat": 29.9897,
+        "lng": 122.3944
+      },
+      "tags": [
+        "佛教",
+        "海岛",
+        "文化"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "js-suzhou-garden",
+      "name": "苏州园林",
+      "province": "江苏省",
+      "provinceId": "jiangsu",
+      "city": "苏州",
+      "cityId": "suzhou",
+      "level": "5A",
+      "address": "江苏省苏州市姑苏区东北街178号",
+      "location": {
+        "lat": 31.3251,
+        "lng": 120.6298
+      },
+      "tags": [
+        "园林",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "js-huqiu",
+      "name": "虎丘山风景名胜区",
+      "province": "江苏省",
+      "provinceId": "jiangsu",
+      "city": "苏州",
+      "cityId": "suzhou",
+      "level": "5A",
+      "address": "江苏省苏州市姑苏区虎丘山门内8号",
+      "location": {
+        "lat": 31.3334,
+        "lng": 120.5653
+      },
+      "tags": [
+        "古迹",
+        "文化",
+        "自然"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "js-nanjing-president",
+      "name": "南京总统府",
+      "province": "江苏省",
+      "provinceId": "jiangsu",
+      "city": "南京",
+      "cityId": "nanjing",
+      "level": "5A",
+      "address": "江苏省南京市玄武区长江路292号",
+      "location": {
+        "lat": 32.0603,
+        "lng": 118.7969
+      },
+      "tags": [
+        "历史",
+        "文化",
+        "古迹"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "sx-terracotta",
+      "name": "秦始皇兵马俑博物馆",
+      "province": "陕西省",
+      "provinceId": "shaanxi",
+      "city": "西安",
+      "cityId": "xian",
+      "level": "5A",
+      "address": "陕西省西安市临潼区秦俑村",
+      "location": {
+        "lat": 34.3883,
+        "lng": 109.2747
+      },
+      "tags": [
+        "历史",
+        "考古",
+        "世界遗产"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "sx-city-wall",
+      "name": "西安城墙景区",
+      "province": "陕西省",
+      "provinceId": "shaanxi",
+      "city": "西安",
+      "cityId": "xian",
+      "level": "5A",
+      "address": "陕西省西安市碑林区南大街2号",
+      "location": {
+        "lat": 34.2624,
+        "lng": 108.9489
+      },
+      "tags": [
+        "古迹",
+        "历史",
+        "文化"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "sx-huaqing",
+      "name": "华清宫景区",
+      "province": "陕西省",
+      "provinceId": "shaanxi",
+      "city": "西安",
+      "cityId": "xian",
+      "level": "5A",
+      "address": "陕西省西安市临潼区华清路38号",
+      "location": {
+        "lat": 34.3211,
+        "lng": 109.2044
+      },
+      "tags": [
+        "温泉",
+        "历史",
+        "文化"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "ha-longmen",
+      "name": "龙门石窟",
+      "province": "河南省",
+      "provinceId": "henan",
+      "city": "洛阳",
+      "cityId": "luoyang",
+      "level": "5A",
+      "address": "河南省洛阳市洛龙区龙门中街13号",
+      "location": {
+        "lat": 34.6279,
+        "lng": 112.4539
+      },
+      "tags": [
+        "石刻",
+        "佛教",
+        "世界遗产"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "ha-songshan",
+      "name": "嵩山少林寺",
+      "province": "河南省",
+      "provinceId": "henan",
+      "city": "登封",
+      "cityId": "dengfeng",
+      "level": "5A",
+      "address": "河南省郑州市登封市嵩山少林风景区",
+      "location": {
+        "lat": 34.4949,
+        "lng": 113.0244
+      },
+      "tags": [
+        "佛教",
+        "武术",
+        "文化"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "ha-kaiyuan",
+      "name": "开封清明上河园",
+      "province": "河南省",
+      "provinceId": "henan",
+      "city": "开封",
+      "cityId": "kaifeng",
+      "level": "5A",
+      "address": "河南省开封市龙亭区龙亭西路5号",
+      "location": {
+        "lat": 34.8016,
+        "lng": 114.3554
+      },
+      "tags": [
+        "文化",
+        "历史",
+        "主题"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "yn-lijiang",
+      "name": "丽江古城",
+      "province": "云南省",
+      "provinceId": "yunnan",
+      "city": "丽江",
+      "cityId": "lijiang",
+      "level": "5A",
+      "address": "云南省丽江市古城区",
+      "location": {
+        "lat": 26.8641,
+        "lng": 100.2367
+      },
+      "tags": [
+        "古城",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "yn-dali",
+      "name": "大理古城",
+      "province": "云南省",
+      "provinceId": "yunnan",
+      "city": "大理",
+      "cityId": "dali",
+      "level": "5A",
+      "address": "云南省大理白族自治州大理市大理古城",
+      "location": {
+        "lat": 25.6052,
+        "lng": 100.1974
+      },
+      "tags": [
+        "古城",
+        "文化",
+        "自然"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "yn-xishuangbanna",
+      "name": "西双版纳热带植物园",
+      "province": "云南省",
+      "provinceId": "yunnan",
+      "city": "西双版纳",
+      "cityId": "xishuangbanna",
+      "level": "5A",
+      "address": "云南省西双版纳傣族自治州勐腊县勐仑镇",
+      "location": {
+        "lat": 21.9165,
+        "lng": 101.1563
+      },
+      "tags": [
+        "植物",
+        "自然",
+        "科普"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "hn-zhangjiajie",
+      "name": "张家界武陵源风景名胜区",
+      "province": "湖南省",
+      "provinceId": "hunan",
+      "city": "张家界",
+      "cityId": "zhangjiajie",
+      "level": "5A",
+      "address": "湖南省张家界市武陵源区军地坪",
+      "location": {
+        "lat": 29.1136,
+        "lng": 110.4722
+      },
+      "tags": [
+        "自然",
+        "峰林",
+        "世界遗产"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "hn-fenghuang",
+      "name": "凤凰古城",
+      "province": "湖南省",
+      "provinceId": "hunan",
+      "city": "凤凰",
+      "cityId": "fenghuang",
+      "level": "5A",
+      "address": "湖南省湘西土家族苗族自治州凤凰县",
+      "location": {
+        "lat": 27.9417,
+        "lng": 109.4244
+      },
+      "tags": [
+        "古城",
+        "文化",
+        "自然"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "hb-yangtze-bridge",
+      "name": "武汉黄鹤楼",
+      "province": "湖北省",
+      "provinceId": "hubei",
+      "city": "武汉",
+      "cityId": "wuhan",
+      "level": "5A",
+      "address": "湖北省武汉市武昌区蛇山西山坡特1号",
+      "location": {
+        "lat": 30.5429,
+        "lng": 114.2879
+      },
+      "tags": [
+        "古迹",
+        "文化",
+        "地标"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "hb-three-gorges-dam",
+      "name": "三峡大坝旅游区",
+      "province": "湖北省",
+      "provinceId": "hubei",
+      "city": "宜昌",
+      "cityId": "yichang",
+      "level": "5A",
+      "address": "湖北省宜昌市夷陵区三斗坪镇",
+      "location": {
+        "lat": 30.8219,
+        "lng": 111.0064
+      },
+      "tags": [
+        "水利",
+        "现代",
+        "工程"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "ah-huangshan",
+      "name": "黄山风景区",
+      "province": "安徽省",
+      "provinceId": "anhui",
+      "city": "黄山",
+      "cityId": "huangshan",
+      "level": "5A",
+      "address": "安徽省黄山市黄山区汤口镇",
+      "location": {
+        "lat": 30.1398,
+        "lng": 118.1945
+      },
+      "tags": [
+        "名山",
+        "自然",
+        "世界遗产"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "ah-jiuhuashan",
+      "name": "九华山风景区",
+      "province": "安徽省",
+      "provinceId": "anhui",
+      "city": "池州",
+      "cityId": "chizhou",
+      "level": "5A",
+      "address": "安徽省池州市青阳县九华镇",
+      "location": {
+        "lat": 30.5886,
+        "lng": 117.8333
+      },
+      "tags": [
+        "佛教",
+        "名山",
+        "自然"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "fj-wuyishan",
+      "name": "武夷山风景名胜区",
+      "province": "福建省",
+      "provinceId": "fujian",
+      "city": "武夷山",
+      "cityId": "wuyishan",
+      "level": "5A",
+      "address": "福建省南平市武夷山市武夷街道",
+      "location": {
+        "lat": 27.7676,
+        "lng": 117.9886
+      },
+      "tags": [
+        "自然",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "fj-gulangyu",
+      "name": "鼓浪屿",
+      "province": "福建省",
+      "provinceId": "fujian",
+      "city": "厦门",
+      "cityId": "xiamen",
+      "level": "5A",
+      "address": "福建省厦门市思明区",
+      "location": {
+        "lat": 24.4679,
+        "lng": 118.0877
+      },
+      "tags": [
+        "海岛",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "sd-taishan",
+      "name": "泰山景区",
+      "province": "山东省",
+      "provinceId": "shandong",
+      "city": "泰安",
+      "cityId": "taian",
+      "level": "5A",
+      "address": "山东省泰安市泰山区红门路",
+      "location": {
+        "lat": 36.2649,
+        "lng": 117.1566
+      },
+      "tags": [
+        "名山",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "sd-qin",
+      "name": "曲阜三孔",
+      "province": "山东省",
+      "provinceId": "shandong",
+      "city": "济宁",
+      "cityId": "jining",
+      "level": "5A",
+      "address": "山东省济宁市曲阜市",
+      "location": {
+        "lat": 35.5951,
+        "lng": 116.986
+      },
+      "tags": [
+        "文化",
+        "古迹",
+        "世界遗产"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "gx-guilin",
+      "name": "桂林漓江风景名胜区",
+      "province": "广西壮族自治区",
+      "provinceId": "guangxi",
+      "city": "桂林",
+      "cityId": "guilin",
+      "level": "5A",
+      "address": "广西壮族自治区桂林市灵川县",
+      "location": {
+        "lat": 25.2741,
+        "lng": 110.3644
+      },
+      "tags": [
+        "自然",
+        "江河",
+        "山水"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "gx-yangshuo",
+      "name": "阳朔西街",
+      "province": "广西壮族自治区",
+      "provinceId": "guangxi",
+      "city": "阳朔",
+      "cityId": "yangshuo",
+      "level": "5A",
+      "address": "广西壮族自治区桂林市阳朔县",
+      "location": {
+        "lat": 24.7769,
+        "lng": 110.4515
+      },
+      "tags": [
+        "古镇",
+        "文化",
+        "美食"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "gz-huangguoshu",
+      "name": "黄果树瀑布景区",
+      "province": "贵州省",
+      "provinceId": "guizhou",
+      "city": "安顺",
+      "cityId": "anshun",
+      "level": "5A",
+      "address": "贵州省安顺市镇宁布依族苗族自治县",
+      "location": {
+        "lat": 25.9992,
+        "lng": 105.6865
+      },
+      "tags": [
+        "自然",
+        "瀑布",
+        "地质"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "gz-fanjing",
+      "name": "梵净山景区",
+      "province": "贵州省",
+      "provinceId": "guizhou",
+      "city": "铜仁",
+      "cityId": "tongren",
+      "level": "5A",
+      "address": "贵州省铜仁市江口县",
+      "location": {
+        "lat": 27.9161,
+        "lng": 108.7891
+      },
+      "tags": [
+        "自然",
+        "名山",
+        "世界遗产"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "xz-potala",
+      "name": "布达拉宫",
+      "province": "西藏自治区",
+      "provinceId": "xizang",
+      "city": "拉萨",
+      "cityId": "lasa",
+      "level": "5A",
+      "address": "西藏自治区拉萨市城关区北京中路35号",
+      "location": {
+        "lat": 29.6541,
+        "lng": 91.1244
+      },
+      "tags": [
+        "宗教",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "xz-namtso",
+      "name": "纳木错",
+      "province": "西藏自治区",
+      "provinceId": "xizang",
+      "city": "当雄",
+      "cityId": "naqu",
+      "level": "5A",
+      "address": "西藏自治区拉萨市当雄县",
+      "location": {
+        "lat": 30.7661,
+        "lng": 90.9
+      },
+      "tags": [
+        "湖泊",
+        "自然",
+        "高原"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "xj-turpan",
+      "name": "吐鲁番葡萄沟",
+      "province": "新疆维吾尔自治区",
+      "provinceId": "xinjiang",
+      "city": "吐鲁番",
+      "cityId": "tulufan",
+      "level": "5A",
+      "address": "新疆维吾尔自治区吐鲁番市葡萄沟镇",
+      "location": {
+        "lat": 42.9344,
+        "lng": 89.1672
+      },
+      "tags": [
+        "自然",
+        "农业",
+        "文化"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "xj-kashgar",
+      "name": "喀什古城",
+      "province": "新疆维吾尔自治区",
+      "provinceId": "xinjiang",
+      "city": "喀什",
+      "cityId": "kashgar",
+      "level": "5A",
+      "address": "新疆维吾尔自治区喀什地区喀什市",
+      "location": {
+        "lat": 39.4742,
+        "lng": 75.976
+      },
+      "tags": [
+        "古城",
+        "文化",
+        "民族"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "gs-mogao",
+      "name": "莫高窟",
+      "province": "甘肃省",
+      "provinceId": "gansu",
+      "city": "敦煌",
+      "cityId": "dunhuang",
+      "level": "5A",
+      "address": "甘肃省酒泉市敦煌市",
+      "location": {
+        "lat": 40.0998,
+        "lng": 94.7953
+      },
+      "tags": [
+        "佛教",
+        "艺术",
+        "世界遗产"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "gs-zhangye",
+      "name": "张掖七彩丹霞",
+      "province": "甘肃省",
+      "provinceId": "gansu",
+      "city": "张掖",
+      "cityId": "zhangye",
+      "level": "5A",
+      "address": "甘肃省张掖市临泽县倪家营镇",
+      "location": {
+        "lat": 39.2435,
+        "lng": 100.3978
+      },
+      "tags": [
+        "自然",
+        "地质",
+        "摄影"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "nm-hulunbuir",
+      "name": "呼伦贝尔草原",
+      "province": "内蒙古自治区",
+      "provinceId": "neimenggu",
+      "city": "呼伦贝尔",
+      "cityId": "hulunbeier",
+      "level": "5A",
+      "address": "内蒙古自治区呼伦贝尔市",
+      "location": {
+        "lat": 49.2134,
+        "lng": 119.7369
+      },
+      "tags": [
+        "草原",
+        "自然",
+        "民俗"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "ln-dalian-polar",
+      "name": "大连老虎滩海洋公园",
+      "province": "辽宁省",
+      "provinceId": "liaoning",
+      "city": "大连",
+      "cityId": "dalian",
+      "level": "5A",
+      "address": "辽宁省大连市中山区滨海中路9号",
+      "location": {
+        "lat": 38.9179,
+        "lng": 121.6161
+      },
+      "tags": [
+        "海洋",
+        "亲子",
+        "娱乐"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "hl-sun-island",
+      "name": "哈尔滨太阳岛",
+      "province": "黑龙江省",
+      "provinceId": "heilongjiang",
+      "city": "哈尔滨",
+      "cityId": "harbin",
+      "level": "5A",
+      "address": "黑龙江省哈尔滨市松北区",
+      "location": {
+        "lat": 45.8117,
+        "lng": 126.5544
+      },
+      "tags": [
+        "自然",
+        "休闲",
+        "冰雪"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "hi-sanya-bay",
+      "name": "三亚亚龙湾",
+      "province": "海南省",
+      "provinceId": "hainan",
+      "city": "三亚",
+      "cityId": "sanya",
+      "level": "5A",
+      "address": "海南省三亚市吉阳区",
+      "location": {
+        "lat": 18.3024,
+        "lng": 109.5417
+      },
+      "tags": [
+        "海滩",
+        "度假",
+        "自然"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "hi-wuzhizhou",
+      "name": "蜈支洲岛",
+      "province": "海南省",
+      "provinceId": "hainan",
+      "city": "三亚",
+      "cityId": "sanya",
+      "level": "5A",
+      "address": "海南省三亚市海棠区蜈支洲岛",
+      "location": {
+        "lat": 18.3692,
+        "lng": 109.6799
+      },
+      "tags": [
+        "海岛",
+        "度假",
+        "自然"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "sx-datong-grotto",
+      "name": "云冈石窟",
+      "province": "山西省",
+      "provinceId": "shanxi",
+      "city": "大同",
+      "cityId": "datong",
+      "level": "5A",
+      "address": "山西省大同市云冈区云冈镇",
+      "location": {
+        "lat": 40.0664,
+        "lng": 113.2038
+      },
+      "tags": [
+        "佛教",
+        "石刻",
+        "世界遗产"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "sx-pingyao",
+      "name": "平遥古城",
+      "province": "山西省",
+      "provinceId": "shanxi",
+      "city": "平遥",
+      "cityId": "pingyao",
+      "level": "5A",
+      "address": "山西省晋中市平遥县",
+      "location": {
+        "lat": 37.2165,
+        "lng": 112.1832
+      },
+      "tags": [
+        "古城",
+        "文化",
+        "世界遗产"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "jx-lushan",
+      "name": "庐山景区",
+      "province": "江西省",
+      "provinceId": "jiangxi",
+      "city": "九江",
+      "cityId": "jiujiang",
+      "level": "5A",
+      "address": "江西省九江市庐山市",
+      "location": {
+        "lat": 29.5857,
+        "lng": 115.9079
+      },
+      "tags": [
+        "名山",
+        "自然",
+        "文化"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "jx-wuyuan",
+      "name": "婺源江湾",
+      "province": "江西省",
+      "provinceId": "jiangxi",
+      "city": "婺源",
+      "cityId": "wuyuan",
+      "level": "5A",
+      "address": "江西省上饶市婺源县江湾镇",
+      "location": {
+        "lat": 29.3258,
+        "lng": 117.8466
+      },
+      "tags": [
+        "乡村",
+        "文化",
+        "自然"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "tj-porcelain",
+      "name": "天津古文化街",
+      "province": "天津市",
+      "provinceId": "tianjin",
+      "city": "天津",
+      "cityId": "tianjin",
+      "level": "5A",
+      "address": "天津市南开区古文化街80号",
+      "location": {
+        "lat": 39.1416,
+        "lng": 117.2051
+      },
+      "tags": [
+        "文化",
+        "购物",
+        "民俗"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "he-beidaihe",
+      "name": "北戴河景区",
+      "province": "河北省",
+      "provinceId": "hebei",
+      "city": "秦皇岛",
+      "cityId": "qinhuangdao",
+      "level": "5A",
+      "address": "河北省秦皇岛市北戴河区",
+      "location": {
+        "lat": 39.8943,
+        "lng": 119.5218
+      },
+      "tags": [
+        "海滩",
+        "度假",
+        "自然"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "he-chengde",
+      "name": "承德避暑山庄",
+      "province": "河北省",
+      "provinceId": "hebei",
+      "city": "承德",
+      "cityId": "chengde",
+      "level": "5A",
+      "address": "河北省承德市双桥区山庄东路6号",
+      "location": {
+        "lat": 40.9717,
+        "lng": 117.9464
+      },
+      "tags": [
+        "园林",
+        "皇家",
+        "世界遗产"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "qh-qinghai-lake",
+      "name": "青海湖景区",
+      "province": "青海省",
+      "provinceId": "qinghai",
+      "city": "海南",
+      "cityId": "hainan",
+      "level": "5A",
+      "address": "青海省海南藏族自治州共和县",
+      "location": {
+        "lat": 36.9219,
+        "lng": 100.1358
+      },
+      "tags": [
+        "湖泊",
+        "自然",
+        "高原"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "nx-shapotou",
+      "name": "沙坡头景区",
+      "province": "宁夏回族自治区",
+      "provinceId": "ningxia",
+      "city": "中卫",
+      "cityId": "zhongwei",
+      "level": "5A",
+      "address": "宁夏回族自治区中卫市沙坡头区",
+      "location": {
+        "lat": 37.4987,
+        "lng": 105.1115
+      },
+      "tags": [
+        "沙漠",
+        "自然",
+        "娱乐"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "jl-changbaishan",
+      "name": "长白山景区",
+      "province": "吉林省",
+      "provinceId": "jilin",
+      "city": "延边",
+      "cityId": "yanbian",
+      "level": "5A",
+      "address": "吉林省延边朝鲜族自治州安图县",
+      "location": {
+        "lat": 42.4072,
+        "lng": 128.0259
+      },
+      "tags": [
+        "自然",
+        "火山",
+        "湖泊"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "hk-ocean-park",
+      "name": "香港海洋公园",
+      "province": "香港特别行政区",
+      "provinceId": "xianggang",
+      "city": "香港",
+      "cityId": "xianggang",
+      "level": "5A",
+      "address": "香港特别行政区南区黄竹坑道180号",
+      "location": {
+        "lat": 22.2752,
+        "lng": 114.1586
+      },
+      "tags": [
+        "海洋",
+        "娱乐",
+        "亲子"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "mo-casino",
+      "name": "澳门威尼斯人",
+      "province": "澳门特别行政区",
+      "provinceId": "aomen",
+      "city": "澳门",
+      "cityId": "aomen",
+      "level": "5A",
+      "address": "澳门特别行政区路氹城",
+      "location": {
+        "lat": 22.1419,
+        "lng": 113.5515
+      },
+      "tags": [
+        "娱乐",
+        "购物",
+        "度假"
+      ],
+      "rating": 4.5
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "provinces": [
+    {
+      "id": "beijing",
+      "name": "北京市",
+      "cities": [
+        {
+          "id": "beijing",
+          "name": "北京",
+          "spots": [
+            {
+              "spotId": "bj-forbidden-city",
+              "name": "故宫博物院",
+              "description": "故宫博物院位于北京中轴线的中心，是世界上现存规模最大、保存最为完整的木质结构古建筑群。始建于明永乐四年（1406年），占地面积约72万平方米。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Forbidden%20City%20Beijing%20China%20palace%20architecture%20sunset%20golden&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Forbidden%20City%20red%20walls%20yellow%20roofs%20traditional%20Chinese%20architecture&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Forbidden%20City%20courtyard%20ancient%20Chinese%20palace%20museum&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "古建筑", "世界遗产"],
+              "rating": 4.9,
+              "location": {"lat": 39.9163, "lng": 116.3972},
+              "ticketPrice": "旺季60元/淡季40元",
+              "openingHours": "08:30-17:00（旺季）",
+              "bestSeason": "春季4-5月、秋季9-10月"
+            },
+            {
+              "spotId": "bj-great-wall",
+              "name": "八达岭长城",
+              "description": "八达岭长城是明长城中保存最完好、最具代表性的一段，位于北京市延庆区。作为世界文化遗产和国家5A级景区，以其雄伟壮观的气势吸引着无数游客。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Great%20Wall%20Badaling%20China%20mountain%20panorama%20sunrise&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Great%20Wall%20stone%20steps%20mountain%20landscape%20tourists&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Great%20Wall%20sunset%20golden%20light%20mountain%20range&image_size=landscape_16_9"],
+              "tags": ["历史", "自然", "世界遗产", "徒步"],
+              "rating": 4.9,
+              "location": {"lat": 40.3669, "lng": 116.0017},
+              "ticketPrice": "旺季40元/淡季35元",
+              "openingHours": "07:30-17:30",
+              "bestSeason": "秋季9-10月"
+            },
+            {
+              "spotId": "bj-summer-palace",
+              "name": "颐和园",
+              "description": "颐和园位于北京西北郊，是中国现存规模最大、保存最完整的皇家园林，被誉为'皇家园林博物馆'。始建于乾隆十五年（1750年）。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Summer%20Palace%20Beijing%20Kunming%20Lake%20pagoda%20traditional%20garden&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Summer%20Palace%20Long%20Corridor%20colorful%20paintings%20traditional&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Summer%20Palace%20Seventeen%20Arch%20Bridge%20stone%20bridge%20lake&image_size=landscape_16_9"],
+              "tags": ["历史", "园林", "皇家", "世界遗产"],
+              "rating": 4.8,
+              "location": {"lat": 39.9999, "lng": 116.2755},
+              "ticketPrice": "旺季60元/淡季30元",
+              "openingHours": "06:00-19:00（旺季）",
+              "bestSeason": "春季4-5月、秋季9-10月"
+            },
+            {
+              "spotId": "bj-temple-heaven",
+              "name": "天坛公园",
+              "description": "天坛公园位于北京东城区，是明清两代皇帝祭天、祈谷和祈雨的场所。始建于明永乐十八年（1420年），以'天圆地方'的艺术造型闻名。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Temple%20of%20Heaven%20Beijing%20blue%20roof%20white%20marble%20steps&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Temple%20of%20Heaven%20Hall%20of%20Prayer%20sunset%20golden&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Temple%20of%20Heaven%20Circular%20Mound%20Altar%20blue%20sky&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "古建筑", "世界遗产"],
+              "rating": 4.8,
+              "location": {"lat": 39.8822, "lng": 116.4066},
+              "ticketPrice": "联票34元/大门票15元",
+              "openingHours": "06:00-22:00",
+              "bestSeason": "春秋两季"
+            },
+            {
+              "spotId": "bj-beihai-park",
+              "name": "北海公园",
+              "description": "北海公园位于北京市中心，是中国现存历史最悠久、保存最完整的皇家园林之一。始建于辽代，历经金、元、明、清四代的修缮和扩建。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beihai%20Park%20Beijing%20lake%20pagoda%20traditional%20garden&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beihai%20Park%20White%20Pagoda%20hill%20lake%20reflection&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beihai%20Park%20Nine%20Dragon%20Wall%20colorful%20tiles&image_size=landscape_16_9"],
+              "tags": ["历史", "园林", "皇家", "休闲"],
+              "rating": 4.7,
+              "location": {"lat": 39.9237, "lng": 116.3972},
+              "ticketPrice": "旺季10元/淡季5元",
+              "openingHours": "06:30-21:00",
+              "bestSeason": "夏季6-8月"
+            },
+            {
+              "spotId": "bj-mutianyu",
+              "name": "慕田峪长城",
+              "description": "慕田峪长城位于北京市怀柔区，是明长城的重要组成部分，全长5400米，相比八达岭更为原始古朴。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Mutianyu%20Great%20Wall%20Beijing%20green%20mountains%20beautiful&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Mutianyu%20Great%20Wall%20western%20Beijing%20autumn%20colors&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Mutianyu%20Great%20Wall%20tower%20ancient%20fortress%20view&image_size=landscape_16_9"],
+              "tags": ["历史", "自然", "世界遗产", "徒步"],
+              "rating": 4.8,
+              "location": {"lat": 40.4551, "lng": 116.6076},
+              "ticketPrice": "40元",
+              "openingHours": "07:30-17:30",
+              "bestSeason": "春季4-5月、秋季9-10月"
+            },
+            {
+              "spotId": "bj-ming-shan",
+              "name": "景山公园",
+              "description": "景山公园位于北京老城中轴线上，南邻故宫神武门，站在山顶可俯瞰整个紫禁城。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jingshan%20Park%20Beijing%20view%20Forbidden%20City%20panorama&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jingshan%20Park%20sunset%20over%20Forbidden%20City%20golden%20hour&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jingshan%20Park%20pavilion%20traditional%20Chinese%20architecture&image_size=landscape_16_9"],
+              "tags": ["历史", "园林", "城市景观", "摄影"],
+              "rating": 4.6,
+              "location": {"lat": 39.9282, "lng": 116.3970},
+              "ticketPrice": "2元",
+              "openingHours": "06:00-21:00",
+              "bestSeason": "春秋两季"
+            },
+            {
+              "spotId": "bj-798",
+              "name": "798艺术区",
+              "description": "798艺术区位于北京朝阳区酒仙桥地区，是中国最具影响力的当代艺术聚集地，原址为国营电子工业老厂区。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=798%20Art%20District%20Beijing%20gallery%20contemporary%20art&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=798%20Art%20District%20urban%20art%20murals%20colorful&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=798%20Art%20District%20industrial%20buildings%20artistic&image_size=landscape_16_9"],
+              "tags": ["艺术", "现代", "文创", "摄影"],
+              "rating": 4.5,
+              "location": {"lat": 39.9836, "lng": 116.4955},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "bj-olympic",
+              "name": "奥林匹克公园",
+              "description": "奥林匹克公园位于北京朝阳区，是2008年北京奥运会的主要场馆区，有鸟巢、水立方等标志性建筑。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Olympic%20Park%20Bird%27s%20Nest%20night%20lights&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Olympic%20Park%20Water%20Cube%20blue%20night&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Olympic%20Park%20central%20square%20fountains&image_size=landscape_16_9"],
+              "tags": ["现代", "地标", "体育", "夜景"],
+              "rating": 4.7,
+              "location": {"lat": 39.9416, "lng": 116.4075},
+              "ticketPrice": "免费（内部场馆另收费）",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "bj-hutong",
+              "name": "什刹海胡同",
+              "description": "什刹海位于北京西城区，由前海、后海、西海三个湖泊组成，周围环绕着众多百年老胡同和四合院。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shichahai%20Beijing%20traditional%20hutong%20boats%20evening&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shichahai%20Beijing%20traditional%20courtyard%20lakeside&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shichahai%20Beijing%20night%20scene%20restaurants%20bars&image_size=landscape_16_9"],
+              "tags": ["历史", "胡同", "文化", "休闲"],
+              "rating": 4.7,
+              "location": {"lat": 39.9357, "lng": 116.3726},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "春季4-5月、秋季9-10月"
+            }
+          ]
+        },
+        {
+          "id": "miyun",
+          "name": "密云",
+          "spots": [
+            {"spotId": "miyun-reservoir", "name": "密云水库", "description": "北京最大的饮用水源地，风景秀丽，适合自驾游和露营。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Miyun%20Reservoir%20Beijing%20beautiful%20lake%20scenery&image_size=landscape_16_9"], "tags": ["自然", "湖泊", "户外"], "rating": 4.5, "location": {"lat": 40.4622, "lng": 116.9676}, "ticketPrice": "免费", "openingHours": "全天", "bestSeason": "夏季"}
+          ]
+        },
+        {
+          "id": "huairou",
+          "name": "怀柔",
+          "spots": [
+            {"spotId": "huairou-great-wall", "name": "慕田峪长城", "description": "慕田峪长城位于怀柔区，风景优美，游客相对较少。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Mutianyu%20Great%20Wall%20Huairou%20beautiful%20scenery&image_size=landscape_16_9"], "tags": ["历史", "自然", "徒步"], "rating": 4.8, "location": {"lat": 40.4551, "lng": 116.6076}, "ticketPrice": "40元", "openingHours": "07:30-17:30", "bestSeason": "秋季"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shanghai",
+      "name": "上海市",
+      "cities": [
+        {
+          "id": "shanghai",
+          "name": "上海",
+          "spots": [
+            {
+              "spotId": "sh-bund",
+              "name": "外滩",
+              "description": "外滩位于上海市中心黄浦区的黄浦江畔，是上海最具标志性的景观之一，矗立着52幢风格迥异的古典复兴大楼。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Bund%20night%20view%20skyline%20lights%20Huangpu%20River&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Bund%20European%20buildings%20daytime%20blue%20sky&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20skyline%20Pudong%20skyscrapers%20sunset%20golden%20hour&image_size=landscape_16_9"],
+              "tags": ["现代", "地标", "夜景", "城市景观"],
+              "rating": 4.9,
+              "location": {"lat": 31.2304, "lng": 121.4737},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-oriental-pearl",
+              "name": "东方明珠广播电视塔",
+              "description": "东方明珠广播电视塔位于上海浦东新区陆家嘴，高468米，是上海的标志性建筑之一。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Oriental%20Pearl%20Tower%20Shanghai%20night%20lights%20skyline&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Oriental%20Pearl%20Tower%20daytime%20blue%20sky%20Pudong&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Oriental%20Pearl%20Tower%20observation%20deck%20view%20Bund&image_size=landscape_16_9"],
+              "tags": ["现代", "地标", "观光", "夜景"],
+              "rating": 4.7,
+              "location": {"lat": 31.2397, "lng": 121.4998},
+              "ticketPrice": "199元起",
+              "openingHours": "09:00-21:30",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-yuyuan-garden",
+              "name": "豫园",
+              "description": "豫园位于上海老城厢的东北部，是江南古典园林的代表作品，始建于明嘉靖、万历年间，距今已有450多年历史。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yu%20Garden%20Shanghai%20traditional%20Chinese%20garden%20pagoda&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yu%20Garden%20rockery%20pond%20traditional%20architecture&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yu%20Garden%20lanterns%20night%20traditional%20festive&image_size=landscape_16_9"],
+              "tags": ["园林", "历史", "文化", "江南"],
+              "rating": 4.7,
+              "location": {"lat": 31.2333, "lng": 121.4939},
+              "ticketPrice": "旺季40元/淡季30元",
+              "openingHours": "08:30-17:30",
+              "bestSeason": "春季3-4月、秋季10-11月"
+            },
+            {
+              "spotId": "sh-nanjing-road",
+              "name": "南京路步行街",
+              "description": "南京路步行街是上海最繁华的商业街之一，全长约1.2公里，东起外滩，西至静安寺。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Nanjing%20Road%20Pedestrian%20Street%20shopping%20crowds&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Nanjing%20Road%20night%20lights%20crowds&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Nanjing%20Road%20historic%20buildings%20shops&image_size=landscape_16_9"],
+              "tags": ["购物", "美食", "城市景观", "商业"],
+              "rating": 4.6,
+              "location": {"lat": 31.2387, "lng": 121.4726},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-disney",
+              "name": "上海迪士尼乐园",
+              "description": "上海迪士尼乐园位于浦东新区，是中国内地首座迪士尼主题乐园，包含七大主题园区。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Disneyland%20castle%20night%20fireworks%20show&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Disneyland%20Fantasy%20Castle%20daytime%20beautiful&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Disneyland%20parade%20characters%20colorful&image_size=landscape_16_9"],
+              "tags": ["主题公园", "亲子", "娱乐", "演出"],
+              "rating": 4.8,
+              "location": {"lat": 31.1428, "lng": 121.6573},
+              "ticketPrice": "平日475元/周末665元",
+              "openingHours": "08:30-21:30",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-xintiandi",
+              "name": "新天地",
+              "description": "新天地位于黄浦区太平桥地区，保留了旧里弄的石库门建筑外观，内部是现代时尚的购物中心。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Xintiandi%20Shikumen%20buildings%20modern%20style&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Xintiandi%20night%20lights%20restaurants%20bars&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Xintiandi%20outdoor%20seating%20fashionable&image_size=landscape_16_9"],
+              "tags": ["时尚", "购物", "美食", "夜生活"],
+              "rating": 4.6,
+              "location": {"lat": 31.2206, "lng": 121.4732},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-peoples-square",
+              "name": "人民广场",
+              "description": "人民广场位于上海市中心，是上海的政治、文化和商业中心。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20People%27s%20Square%20central%20plaza%20modern&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20People%27s%20Square%20museum%20building%20traditional&image_size=landscape_16_9"],
+              "tags": ["城市景观", "文化", "商业", "地标"],
+              "rating": 4.5,
+              "location": {"lat": 31.2276, "lng": 121.4715},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-longtemple",
+              "name": "静安寺",
+              "description": "静安寺位于静安区，是上海最古老的佛教寺庙之一，始建于三国时期。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Jing%27an%20Temple%20golden%20roof%20modern%20city&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Jing%27an%20Temple%20traditional%20architecture%20temple&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "宗教", "古建筑"],
+              "rating": 4.6,
+              "location": {"lat": 31.2235, "lng": 121.4455},
+              "ticketPrice": "50元",
+              "openingHours": "07:00-17:00",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "sh-chenghuang-temple",
+              "name": "城隍庙",
+              "description": "上海城隍庙位于黄浦区方浜中路，是上海最著名的道教宫观之一。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20City%20God%20Temple%20night%20lanterns%20crowded&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20City%20God%20Temple%20traditional%20Chinese%20architecture&image_size=landscape_16_9"],
+              "tags": ["历史", "宗教", "美食", "古建筑"],
+              "rating": 4.6,
+              "location": {"lat": 31.2314, "lng": 121.4905},
+              "ticketPrice": "10元",
+              "openingHours": "08:30-16:30",
+              "bestSeason": "春季"
+            },
+            {
+              "spotId": "sh-world-financial",
+              "name": "上海环球金融中心",
+              "description": "上海环球金融中心位于浦东新区陆家嘴，高492米，地上101层，顶部100层的观光厅形如开瓶器。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20World%20Financial%20Center%20SKP%20view%20from%20top&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20World%20Financial%20Center%20bottle%20opener%20shape&image_size=landscape_16_9"],
+              "tags": ["现代", "地标", "观光", "夜景"],
+              "rating": 4.7,
+              "location": {"lat": 31.2355, "lng": 121.4998},
+              "ticketPrice": "180元",
+              "openingHours": "09:00-21:00",
+              "bestSeason": "四季皆宜"
+            }
+          ]
+        },
+        {
+          "id": "qingpu",
+          "name": "青浦",
+          "spots": [
+            {"spotId": "qingpu-water-town", "name": "朱家角古镇", "description": "江南著名水乡古镇，保留了大量明清建筑和古桥。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Zhujiajiao%20water%20town%20Qingpu%20Shanghai%20traditional&image_size=landscape_16_9"], "tags": ["古镇", "水乡", "历史"], "rating": 4.6, "location": {"lat": 31.1593, "lng": 121.0918}, "ticketPrice": "免费", "openingHours": "全天", "bestSeason": "春季"}
+          ]
+        },
+        {
+          "id": "songjiang",
+          "name": "松江",
+          "spots": [
+            {"spotId": "songjiang-cathedral", "name": "佘山国家森林公园", "description": "上海唯一的自然山林胜地，有东西佘山两座主峰。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sheshan%20National%20Forest%20Park%20Songjiang%20Shanghai%20mountain&image_size=landscape_16_9"], "tags": ["自然", "登山", "休闲"], "rating": 4.5, "location": {"lat": 31.0522, "lng": 121.1350}, "ticketPrice": "免费", "openingHours": "08:00-17:00", "bestSeason": "秋季"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chongqing",
+      "name": "重庆市",
+      "cities": [
+        {
+          "id": "chongqing",
+          "name": "重庆",
+          "spots": [
+            {
+              "spotId": "cq-hongyadong",
+              "name": "洪崖洞",
+              "description": "洪崖洞位于重庆市渝中区嘉陵江滨江路，依山而建的吊脚楼建筑群，夜晚灯火辉煌。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Hongyadong%20night%20lights%20traditional%20architecture&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Hongyadong%20daytime%20traditional%20architecture%20city&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Hongyadong%20night%20panorama%20Jialing%20River&image_size=landscape_16_9"],
+              "tags": ["夜景", "美食", "文化", "地标"],
+              "rating": 4.8,
+              "location": {"lat": 29.4316, "lng": 106.5853},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cq-liziba",
+              "name": "李子坝轻轨站",
+              "description": "李子坝轻轨站因其独特的设计而闻名全国——轻轨列车从一栋居民楼的6-8层穿行而过。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Liziba%20Light%20Rail%20station%20train%20through%20building&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Liziba%20train%20emerging%20from%20building%20unique&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Liziba%20observation%20deck%20tourists%20viewpoint&image_size=landscape_16_9"],
+              "tags": ["奇观", "交通", "地标", "网红"],
+              "rating": 4.5,
+              "location": {"lat": 29.4428, "lng": 106.5795},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cq-chaotianmen",
+              "name": "朝天门广场",
+              "description": "朝天门广场位于重庆市渝中区长江与嘉陵江交汇处，可看到两江交汇的壮观景象。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Chaotianmen%20Square%20Yangtze%20Jialing%20River%20confluence&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Chaotianmen%20sunset%20golden%20hour%20rivers&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Chaotianmen%20night%20lights%20skyline%20beautiful&image_size=landscape_16_9"],
+              "tags": ["两江交汇", "地标", "夜景", "城市景观"],
+              "rating": 4.6,
+              "location": {"lat": 29.4312, "lng": 106.5888},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "春秋两季"
+            },
+            {
+              "spotId": "cq-shenglifeng",
+              "name": "解放碑",
+              "description": "解放碑位于重庆市渝中区，是重庆的地标性建筑，周边汇聚了众多购物中心和美食街。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Jiefangbei%20monument%20night%20lights%20crowds&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Jiefangbei%20business%20district%20skyline&image_size=landscape_16_9"],
+              "tags": ["地标", "购物", "美食", "夜生活"],
+              "rating": 4.6,
+              "location": {"lat": 29.4236, "lng": 106.5888},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cq-yonghe-dock",
+              "name": "磁器口古镇",
+              "description": "磁器口古镇位于重庆市沙坪坝区，始建于宋代，保存了大量明清时期的建筑。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Ciqikou%20Ancient%20Town%20traditional%20architecture%20crowded&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Ciqikou%20stone%20road%20red%20lanterns%20traditional&image_size=landscape_16_9"],
+              "tags": ["古镇", "美食", "文化", "历史"],
+              "rating": 4.6,
+              "location": {"lat": 29.5795, "lng": 106.4494},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cq-wulong",
+              "name": "武隆天生三桥",
+              "description": "武隆天生三桥位于重庆市武隆区，是世界上最大的天生桥群，《变形金刚4》取景地。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wulong%20Three%20Natural%20Bridges%20Guizhou%20karst%20landscape&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wulong%20Three%20Natural%20Bridges%20impressive%20viewpoint&image_size=landscape_16_9"],
+              "tags": ["自然", "奇观", "世界遗产", "摄影"],
+              "rating": 4.9,
+              "location": {"lat": 29.3318, "lng": 107.8944},
+              "ticketPrice": "125元",
+              "openingHours": "08:30-16:30",
+              "bestSeason": "春季4-5月、秋季9-10月"
+            },
+            {
+              "spotId": "cq-north-hot",
+              "name": "北碚缙云山",
+              "description": "缙云山位于重庆市北碚区嘉陵江温塘峡畔，素有'小峨眉'之称，植被丰富，空气清新。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jinyun%20Mountain%20Chongqing%20foggy%20morning%20lush%20vegetation&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jinyun%20Mountain%20Chongqing%20temple%20ancient%20Buddhist&image_size=landscape_16_9"],
+              "tags": ["自然", "登山", "避暑", "森林"],
+              "rating": 4.7,
+              "location": {"lat": 29.8233, "lng": 106.3922},
+              "ticketPrice": "12元",
+              "openingHours": "08:00-18:00",
+              "bestSeason": "夏季"
+            },
+            {
+              "spotId": "cq-baiheliang",
+              "name": "白鹤梁水下博物馆",
+              "description": "白鹤梁位于涪陵区长江中，梁上有唐宋以来1000多年的石刻题记，记录了72个年份的枯水水位。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Baihe%20Liang%20underwater%20museum%20ancient%20carvings&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Baihe%20Liang%20Yangtze%20River%20historical%20relics&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "博物馆", "水下"],
+              "rating": 4.5,
+              "location": {"lat": 29.7031, "lng": 107.3944},
+              "ticketPrice": "50元",
+              "openingHours": "09:00-17:00",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cq-yangtze-cable",
+              "name": "长江索道",
+              "description": "长江索道是重庆独特的交通方式，可在空中俯瞰长江两岸的美景。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Yangtze%20River%20cable%20car%20aerial%20view&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20cable%20car%20crossing%20Yangtze%20River%20sky&image_size=landscape_16_9"],
+              "tags": ["交通", "观光", "网红", "城市景观"],
+              "rating": 4.5,
+              "location": {"lat": 29.4300, "lng": 106.5900},
+              "ticketPrice": "20元",
+              "openingHours": "07:30-22:30",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cq-citizen-park",
+              "name": "重庆人民大礼堂",
+              "description": "重庆人民大礼堂位于渝中区，是重庆的标志性建筑之一，具有浓郁的民族风格。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20People%27s%20Auditorium%20traditional%20Chinese%20architecture&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20People%27s%20Auditorium%20night%20illumination&image_size=landscape_16_9"],
+              "tags": ["建筑", "地标", "历史", "文化"],
+              "rating": 4.5,
+              "location": {"lat": 29.4310, "lng": 106.5780},
+              "ticketPrice": "8元",
+              "openingHours": "08:30-17:00",
+              "bestSeason": "四季皆宜"
+            }
+          ]
+        },
+        {
+          "id": "wulong",
+          "name": "武隆",
+          "spots": [
+            {"spotId": "wulong-karst", "name": "武隆喀斯特旅游区", "description": "世界自然遗产，包括天生三桥、仙女山、芙蓉洞等景点。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wulong%20Karst%20Tourism%20Area%20natural%20scenery&image_size=landscape_16_9"], "tags": ["自然", "世界遗产", "奇观"], "rating": 4.9, "location": {"lat": 29.3318, "lng": 107.8944}, "ticketPrice": "联票230元", "openingHours": "08:30-16:30", "bestSeason": "春季"}
+          ]
+        },
+        {
+          "id": "fuling",
+          "name": "涪陵",
+          "spots": [
+            {"spotId": "fuling-white-crane", "name": "涪陵白鹤梁", "description": "世界唯一以石鱼水标留存的古代水文站。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Fuling%20White%20Crane%20Liang%20ancient%20hydrology&image_size=landscape_16_9"], "tags": ["历史", "文化", "博物馆"], "rating": 4.5, "location": {"lat": 29.7031, "lng": 107.3944}, "ticketPrice": "50元", "openingHours": "09:00-17:00", "bestSeason": "四季皆宜"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sichuan",
+      "name": "四川省",
+      "cities": [
+        {
+          "id": "chengdu",
+          "name": "成都",
+          "spots": [
+            {
+              "spotId": "cd-panda-base",
+              "name": "成都大熊猫繁育研究基地",
+              "description": "全球最大的大熊猫保护研究机构之一，饲养着80余只大熊猫和其他珍稀濒危动物。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=panda%20bear%20eating%20bamboo%20cute%20Chengdu%20China&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=panda%20cub%20playing%20trees%20adorable%20baby%20animal&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=panda%20base%20Chengdu%20research%20center%20entrance&image_size=landscape_16_9"],
+              "tags": ["动物", "亲子", "自然", "国宝"],
+              "rating": 4.8,
+              "location": {"lat": 30.7563, "lng": 104.1234},
+              "ticketPrice": "55元",
+              "openingHours": "07:30-18:00",
+              "bestSeason": "春季3-5月"
+            },
+            {
+              "spotId": "cd-jinli",
+              "name": "锦里古街",
+              "description": "锦里古街位于成都市武侯区，是成都最具川西风情的古街之一，充满历史文化氛围。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Jinli%20Ancient%20Street%20red%20lanterns%20night%20traditional&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Jinli%20street%20food%20snacks%20local%20delicacies&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Jinli%20traditional%20architecture%20lanterns%20evening&image_size=landscape_16_9"],
+              "tags": ["古街", "美食", "文化", "民俗"],
+              "rating": 4.7,
+              "location": {"lat": 30.6558, "lng": 104.0336},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cd-wide-narrow-alley",
+              "name": "宽窄巷子",
+              "description": "宽窄巷子由宽巷子、窄巷子和井巷子三条平行排列的清代古街组成，是成都慢生活文化的代表。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Wide%20Narrow%20Alley%20traditional%20architecture%20courtyard&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Wide%20Narrow%20Alley%20tea%20house%20traditional%20lifestyle&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Wide%20Narrow%20Alley%20night%20lighting%20beautiful%20evening&image_size=landscape_16_9"],
+              "tags": ["古街", "文化", "历史", "休闲"],
+              "rating": 4.6,
+              "location": {"lat": 30.6628, "lng": 104.0397},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "春秋两季"
+            },
+            {
+              "spotId": "cd-wuhou-temple",
+              "name": "武侯祠",
+              "description": "武侯祠是中国唯一一座君臣合祀祠庙，也是纪念诸葛亮的主要场所，始建于蜀汉年间。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Wuhou%20Temple%20traditional%20Chinese%20architecture%20historical&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Wuhou%20Temple%20red%20walls%20ancient%20trees&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "三国", "古建筑"],
+              "rating": 4.7,
+              "location": {"lat": 30.6512, "lng": 104.0406},
+              "ticketPrice": "50元",
+              "openingHours": "08:00-20:00",
+              "bestSeason": "春季3-4月"
+            },
+            {
+              "spotId": "cd-dufu-thatched-cottage",
+              "name": "杜甫草堂",
+              "description": "杜甫草堂是唐代诗人杜甫流寓成都时的故居，在此创作了《茅屋为秋风所破歌》等著名诗篇。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Du%20Fu%20Thatched%20Cottage%20traditional%20Chinese%20garden&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Du%20Fu%20Thatched%20Cottage%20poetry%20inscriptions&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "文学", "园林"],
+              "rating": 4.7,
+              "location": {"lat": 30.6818, "lng": 104.0206},
+              "ticketPrice": "50元",
+              "openingHours": "08:00-19:00",
+              "bestSeason": "秋季10-11月"
+            },
+            {
+              "spotId": "cd-taikoo-li",
+              "name": "太古里",
+              "description": "成都太古里是成都最时尚的高端商业街区，汇聚了众多国际品牌旗舰店和网红餐厅。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Taikoo%20Li%20modern%20fashion%20shopping%20district&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Taikoo%20Li%20IFS%20panda%20art%20installation&image_size=landscape_16_9"],
+              "tags": ["时尚", "购物", "美食", "网红"],
+              "rating": 4.7,
+              "location": {"lat": 30.6603, "lng": 104.0633},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cd-jinsha",
+              "name": "金沙遗址博物馆",
+              "description": "金沙遗址是公元前12世纪至公元前7世纪古蜀国的都城所在，出土了大量珍贵文物。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Jinsha%20Site%20Museum%20ancient%20Shu%20civilization&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Jinsha%20Site%20Museum%20golden%20sun%20bird%20treasure&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "博物馆", "考古"],
+              "rating": 4.7,
+              "location": {"lat": 30.6875, "lng": 104.0033},
+              "ticketPrice": "70元",
+              "openingHours": "08:00-18:00",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cd-chunxi-road",
+              "name": "春熙路",
+              "description": "春熙路是成都最繁华的商业步行街，也是成都时尚的代名词。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Chunxi%20Road%20shopping%20district%20crowds%20prosperous&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Chunxi%20Road%20night%20lights%20fashion%20shopping&image_size=landscape_16_9"],
+              "tags": ["购物", "美食", "商业", "夜生活"],
+              "rating": 4.6,
+              "location": {"lat": 30.6588, "lng": 104.0645},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cd-qianhuili",
+              "name": "浣花溪公园",
+              "description": "浣花溪公园是成都市最大的湿地公园，有白鹭、湖心岛、古琴馆等景点。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Huanhuaxi%20Park%20wetland%20nature%20peaceful&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Huanhuaxi%20Park%20white%20egrets%20lake%20beautiful&image_size=landscape_16_9"],
+              "tags": ["自然", "湿地", "休闲", "摄影"],
+              "rating": 4.6,
+              "location": {"lat": 30.6728, "lng": 104.0183},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "cd-people-park",
+              "name": "人民公园",
+              "description": "人民公园是成都历史悠久的公园，是市民休闲娱乐的重要场所，有著名的鹤鸣茶社。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20People%27s%20Park%20traditional%20tea%20house%20leisure&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20People%27s%20Park%20garden%20peaceful%20atmosphere&image_size=landscape_16_9"],
+              "tags": ["休闲", "公园", "文化", "茶社"],
+              "rating": 4.5,
+              "location": {"lat": 30.6578, "lng": 104.0428},
+              "ticketPrice": "免费",
+              "openingHours": "06:00-22:00",
+              "bestSeason": "四季皆宜"
+            }
+          ]
+        },
+        {
+          "id": "jiuzhaigou",
+          "name": "九寨沟",
+          "spots": [
+            {"spotId": "jiuzhaigou-valley", "name": "九寨沟风景区", "description": "世界自然遗产，以翠海、叠瀑、彩林、雪峰、藏情、蓝冰'六绝'著称。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jiuzhaigou%20Valley%20colorful%20lakes%20waterfalls%20nature&image_size=landscape_16_9"], "tags": ["自然", "世界遗产", "湖泊"], "rating": 4.9, "location": {"lat": 33.1485, "lng": 103.9197}, "ticketPrice": "旺季280元/淡季200元", "openingHours": "08:00-17:00", "bestSeason": "秋季10月"}
+          ]
+        },
+        {
+          "id": "leshan",
+          "name": "乐山",
+          "spots": [
+            {"spotId": "leshan-buddha", "name": "乐山大佛", "description": "世界最大的石刻弥勒佛坐像，高71米，依山傍水。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Leshan%20Giant%20Buddha%20carved%20stone%20mountain%20impressive&image_size=landscape_16_9"], "tags": ["历史", "文化", "佛教", "世界遗产"], "rating": 4.8, "location": {"lat": 29.5597, "lng": 103.7615}, "ticketPrice": "80元", "openingHours": "07:30-18:30", "bestSeason": "春秋两季"}
+          ]
+        },
+        {
+          "id": "emeishan",
+          "name": "峨眉山",
+          "spots": [
+            {"spotId": "emei-mountain", "name": "峨眉山", "description": "中国四大佛教名山之一，以秀丽的自然风光和悠久的佛教文化著称。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Emei%20Mountain%20Buddhist%20temples%20misty%20peaks%20beautiful&image_size=landscape_16_9"], "tags": ["自然", "佛教", "文化", "世界遗产"], "rating": 4.8, "location": {"lat": 29.5630, "lng": 103.3964}, "ticketPrice": "旺季160元/淡季110元", "openingHours": "06:00-18:00", "bestSeason": "春季4-5月"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guangdong",
+      "name": "广东省",
+      "cities": [
+        {
+          "id": "guangzhou",
+          "name": "广州",
+          "spots": [
+            {
+              "spotId": "gz-canton-tower",
+              "name": "广州塔",
+              "description": "广州塔又称'小蛮腰'，高600米，是中国第一、世界第三高的观光塔。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Canton%20Tower%20Guangzhou%20night%20lights%20beautiful&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Canton%20Tower%20Guangzhou%20daytime%20blue%20sky%20modern&image_size=landscape_16_9", "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Canton%20Tower%20Guangzhou%20panorama%20Pearl%20River&image_size=landscape_16_9"],
+              "tags": ["现代", "地标", "观光", "夜景"],
+              "rating": 4.7,
+              "location": {"lat": 23.1291, "lng": 113.3074},
+              "ticketPrice": "150元起",
+              "openingHours": "09:30-22:30",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "gz-yuexiu-park",
+              "name": "越秀公园",
+              "description": "越秀公园是广州最大的综合性公园，拥有五羊石像等标志性景点。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yuexiu%20Park%20Guangzhou%20five%20goats%20statue&image_size=landscape_16_9"],
+              "tags": ["公园", "文化", "休闲"],
+              "rating": 4.5,
+              "location": {"lat": 23.1200, "lng": 113.2600},
+              "ticketPrice": "免费",
+              "openingHours": "06:00-22:00",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "gz-sun-yat-sen",
+              "name": "孙中山纪念堂",
+              "description": "孙中山纪念堂是纪念孙中山先生的重要场所，建筑气势恢宏。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sun%20Yat%20Sen%20Memorial%20Hall%20Guangzhou%20traditional%20architecture&image_size=landscape_16_9"],
+              "tags": ["历史", "文化", "纪念"],
+              "rating": 4.4,
+              "location": {"lat": 23.1210, "lng": 113.2650},
+              "ticketPrice": "免费",
+              "openingHours": "09:00-17:00",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "gz-shamian",
+              "name": "沙面岛",
+              "description": "沙面岛是广州著名的历史文化街区，保留了大量欧式建筑。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shamian%20Island%20Guangzhou%20European%20architecture%20historic&image_size=landscape_16_9"],
+              "tags": ["历史", "建筑", "文艺"],
+              "rating": 4.6,
+              "location": {"lat": 23.1250, "lng": 113.2380},
+              "ticketPrice": "免费",
+              "openingHours": "全天开放",
+              "bestSeason": "四季皆宜"
+            },
+            {
+              "spotId": "gz-zoo",
+              "name": "广州动物园",
+              "description": "广州动物园是华南地区最大的动物园，拥有众多珍稀动物。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Guangzhou%20Zoo%20animals%20family%20friendly&image_size=landscape_16_9"],
+              "tags": ["动物", "亲子", "自然"],
+              "rating": 4.5,
+              "location": {"lat": 23.1500, "lng": 113.3150},
+              "ticketPrice": "20元",
+              "openingHours": "08:00-18:00",
+              "bestSeason": "春秋两季"
+            },
+            {
+              "spotId": "gz-baiyun-mountain",
+              "name": "白云山",
+              "description": "白云山是广州的'市肺'，空气清新，风景秀丽。",
+              "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Baiyun%20Mountain%20Guangzhou%20scenic%20view%20nature&image_size=landscape_16_9"],
+              "tags": ["自然", "登山", "休闲"],
+              "rating": 4.6,
+              "location": {"lat": 23.1900, "lng": 113.2150},
+              "ticketPrice": "5元",
+              "openingHours": "06:00-22:00",
+              "bestSeason": "秋季"
+            }
+          ]
+        },
+        {
+          "id": "shenzhen",
+          "name": "深圳",
+          "spots": [
+            {"spotId": "sz-windows", "name": "世界之窗", "description": "世界之窗汇集了世界著名景点的微缩景观。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Window%20of%20the%20World%20Shenzhen%20miniature%20landmarks&image_size=landscape_16_9"], "tags": ["主题公园", "亲子", "娱乐"], "rating": 4.5, "location": {"lat": 22.5450, "lng": 113.9600}, "ticketPrice": "220元", "openingHours": "09:00-22:30", "bestSeason": "秋季"},
+            {"spotId": "sz-splendid-china", "name": "锦绣中华", "description": "锦绣中华展示了中国各地著名景点的微缩景观。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Splendid%20China%20Shenzhen%20miniature%20Chinese%20landmarks&image_size=landscape_16_9"], "tags": ["主题公园", "文化", "亲子"], "rating": 4.4, "location": {"lat": 22.5430, "lng": 113.9620}, "ticketPrice": "200元", "openingHours": "09:00-21:00", "bestSeason": "秋季"},
+            {"spotId": "sz-dameisha", "name": "大梅沙海滨公园", "description": "大梅沙是深圳著名的海滨浴场，沙滩宽阔，海水清澈。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Dameisha%20Beach%20Shenzhen%20seaside%20park%20beautiful&image_size=landscape_16_9"], "tags": ["海滩", "自然", "休闲"], "rating": 4.5, "location": {"lat": 22.5680, "lng": 114.3150}, "ticketPrice": "免费", "openingHours": "全天开放", "bestSeason": "夏季"}
+          ]
+        },
+        {
+          "id": "zhuhai",
+          "name": "珠海",
+          "spots": [
+            {"spotId": "zh-sea-world", "name": "珠海长隆海洋王国", "description": "亚洲最大的海洋主题乐园，拥有众多珍稀海洋生物。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Zhuhai%20Chimelong%20Ocean%20Kingdom%20marine%20theme%20park&image_size=landscape_16_9"], "tags": ["主题公园", "亲子", "海洋"], "rating": 4.8, "location": {"lat": 22.2480, "lng": 113.5750}, "ticketPrice": "350元", "openingHours": "09:30-21:00", "bestSeason": "秋季"},
+            {"spotId": "zh-fisher-girl", "name": "珠海渔女", "description": "珠海的标志性雕塑，象征着珠海的渔文化。", "images": ["https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Zhuhai%20Fisher%20Girl%20statue%20seaside%20landmark&image_size=landscape_16_9"], "tags": ["地标", "雕塑", "海滨"], "rating": 4.4, "location": {"lat": 22.2750, "lng": 113.5450}, "ticketPrice": "免费", "openingHours": "全天开放", "bestSeason": "四季皆宜"}
+          ]
+        }
+      ]
+    }
+  ]
+}
